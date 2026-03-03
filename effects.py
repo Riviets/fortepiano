@@ -1,7 +1,6 @@
 from pygame import draw, transform, image
 from settings import BLACK
 
-# --- Картинки нот (лише існуючі) ---
 C_IMG = transform.scale(image.load('assets/images/notes/c.png'), (50, 50))
 D_IMG = transform.scale(image.load('assets/images/notes/d.png'), (50, 50))
 E_IMG = transform.scale(image.load('assets/images/notes/e.png'), (50, 50))
